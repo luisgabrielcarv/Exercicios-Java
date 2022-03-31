@@ -2,7 +2,7 @@ package ddd;
 
 import java.util.Scanner;
 
-public class ex10 {
+public class Ex10 {
 
     public static void main(String[] args) {
    	 Scanner ler = new Scanner(System.in);
@@ -17,14 +17,14 @@ public class ex10 {
    	 segundo = ler.nextInt();
    	 
    	 if (primeiro>segundo) {
-   	    System.out.printf("O numero maior é %d", primeiro);
+   	    System.out.printf("O numero maior Ã© %d", primeiro);
    	 } 
    	 else if (primeiro<segundo) {
    	 
-   		 System.out.printf("O numero maior é %d", segundo);
+   		 System.out.printf("O numero maior Ã© %d", segundo);
    	 }	 
    	 else if (primeiro==segundo) {
-   		System.out.printf("Os numeros são identicos", primeiro, segundo);
+   		System.out.printf("Os numeros sÃ£o identicos", primeiro, segundo);
    	 }
    		 
    	 }
